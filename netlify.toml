@@ -1,9 +1,10 @@
 [build]
-  command = "next build"
-  publish = "out"
+  command = "npm run build"
+  # ❌ remove or comment out "publish = 'out'" — plugin will manage it
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
 
 
 
