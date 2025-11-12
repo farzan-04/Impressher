@@ -1,9 +1,8 @@
 [build]
-  command = "npm run build"
-  # ❌ remove or comment out "publish = 'out'" — plugin will manage it
+  command = "npm run build && npm run export"
+  publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+
 
 
 
