@@ -1,16 +1,16 @@
-"use client";
-import Head from 'next/head'
-import { useState } from "react";
-import Intro from "../components/Intro";
+// "use client";
+// import Head from 'next/head'
+// import { useState } from "react";
+// import Intro from "../components/Intro";
 
-import Screen1 from "../components/Screen1";
-import Screen2 from "../components/Screen2";
-import Screen3 from "../components/Screen3";
-import Screen4 from "../components/Screen4";
+// import Screen1 from "../components/Screen1";
+// import Screen2 from "../components/Screen2";
+// import Screen3 from "../components/Screen3";
+// import Screen4 from "../components/Screen4";
 
 
 
-export default function H6ome() {
+export default function Home() {
   const [screen, setScreen] = useState(1);
   
   return (
