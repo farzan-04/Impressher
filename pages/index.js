@@ -10,7 +10,7 @@ import Screen4 from "../components/Screen4";
 
 
 
-export default function Home() {
+export default function H6ome() {
   const [screen, setScreen] = useState(1);
   
   return (
