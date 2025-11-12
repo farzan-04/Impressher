@@ -16,7 +16,7 @@ export default function Home() {
   return (
     
     <>
-      <Intro />
+      
    <Head>
     <title>Something Special🌝 for some 1 spcl</title>
     <meta name="description" content="A Specail Massage for Someone" />
@@ -35,7 +35,7 @@ export default function Home() {
 </div>
 
     </>
-</>
+
    
   );
 }
