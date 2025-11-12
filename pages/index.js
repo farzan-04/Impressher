@@ -1,6 +1,8 @@
 "use client";
 import Head from 'next/head'
 import { useState } from "react";
+import Intro from "../components/Intro";
+
 import Screen1 from "../components/Screen1";
 import Screen2 from "../components/Screen2";
 import Screen3 from "../components/Screen3";
