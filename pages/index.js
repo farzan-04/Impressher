@@ -18,8 +18,8 @@ export default function Home() {
     <>
       <Intro />
    <Head>
-    <title>Something Special🌝 4some1spcl</title>
-    <meta name="description" content="A Specail Massage 4 Someone" />
+    <title>Something Special🌝 for some 1 spcl</title>
+    <meta name="description" content="A Specail Massage for Someone" />
     <meta property="og:image" content="/Preview.png" />
     <meta property="og:url" content="https://somethingspecialbyfm.netlify.app/" />
     <meta property="og:type" content="website" />
