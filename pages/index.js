@@ -24,14 +24,14 @@ export default function Home() {
     <meta property="og:url" content="https://somethingspecialbyfm.netlify.app/" />
     <meta property="og:type" content="website" />
 
-  </Head>
-      {screen === 1 && <Screen1 onNext={() => setScreen(2)} />}
-      {screen === 2 && <Screen2 onNext={() => setScreen(3)} />}
-      {screen === 3 && <Screen3 onFinish={() => setScreen(4)} />}
-      {screen === 4 && <Screen4 />}
-      <div className="fixed bottom-4 right-4 text-sm text-white/40 pointer-events-none z-50">
-  @programmingwithfarzan
-  ©allrightsreservedbyfarzan
+  // </Head>
+  //     {screen === 1 && <Screen1 onNext={() => setScreen(2)} />}
+  //     {screen === 2 && <Screen2 onNext={() => setScreen(3)} />}
+  //     {screen === 3 && <Screen3 onFinish={() => setScreen(4)} />}
+  //     {screen === 4 && <Screen4 />}
+  //     <div className="fixed bottom-4 right-4 text-sm text-white/40 pointer-events-none z-50">
+  // @programmingwithfarzan
+  // ©allrightsreservedbyfarzan
 </div>
 
     </>
