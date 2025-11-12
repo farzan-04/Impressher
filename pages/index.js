@@ -22,6 +22,7 @@ export default function Home() {
     <meta name="description" content="A Specail Massage 4 Someone" />
     <meta property="og:image" content="/Preview.png" />
     <meta property="og:url" content="https://somethingspecialbyfm.netlify.app/" />
+    <meta property="og:type" content="website" />
 
   </Head>
       {screen === 1 && <Screen1 onNext={() => setScreen(2)} />}
