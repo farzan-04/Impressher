@@ -20,6 +20,8 @@ export default function Home() {
    <Head>
     <title>Something Special🌝 4some1spcl</title>
     <meta name="description" content="A Specail Massage 4 Someone" />
+    <meta property="og:image" content="../public/Preview.png" />
+
   </Head>
       {screen === 1 && <Screen1 onNext={() => setScreen(2)} />}
       {screen === 2 && <Screen2 onNext={() => setScreen(3)} />}
