@@ -11,13 +11,13 @@ export default function Document() {
         {/* Open Graph for WhatsApp, Facebook, etc. */}
         <meta property="og:title" content="ImpressHer" />
         <meta property="og:description" content="A beautiful experience that impresses hearts 💖" />
-        <meta property="og:image" content="https://yourdomain.netlify.app/preview.jpg" />
-        <meta property="og:url" content="https://yourdomain.netlify.app/" />
+        <meta property="og:image" content="https://somethingspecialbyfm.netlify.app/" />
+        <meta property="og:url" content="https://somethingspecialbyfm.netlify.app/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter card (also used by WhatsApp sometimes) */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://yourdomain.netlify.app/preview.jpg" />
+        <meta name="twitter:image" content="https://somethingspecialbyfm.netlify.app/" />
       </Head>
       <body>
         <Main />
