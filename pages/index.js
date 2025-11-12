@@ -16,7 +16,7 @@ export default function Home() {
     <>
     <Head>
     <title>Something Special🌝 4some1spcl</title>
-    <meta name="description" content="A beautiful project by ProgrammingWithFaizu" />
+    <meta name="description" content="A Specail Massage 4 Someone" />
   </Head>
       {screen === 1 && <Screen1 onNext={() => setScreen(2)} />}
       {screen === 2 && <Screen2 onNext={() => setScreen(3)} />}
