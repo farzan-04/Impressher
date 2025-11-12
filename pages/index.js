@@ -16,7 +16,8 @@ export default function Home() {
   return (
     
     <>
-    <Head>
+      <Intro />
+   <Head>
     <title>Something Special🌝 4some1spcl</title>
     <meta name="description" content="A Specail Massage 4 Someone" />
   </Head>
@@ -30,5 +31,7 @@ export default function Home() {
 </div>
 
     </>
+</>
+   
   );
 }
